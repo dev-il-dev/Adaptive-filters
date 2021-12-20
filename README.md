@@ -8,7 +8,27 @@ Noise cancellation (NC), or active noise reduction (ANR), is a method for reduci
 
 ![image](https://user-images.githubusercontent.com/90281515/146786607-c13c66c5-e2c3-409a-8dbb-27e8f7351f88.png)
 
+
+
+## Algorithm:
+
+There are several algorithms used to calculate the "anti-noise" signal. The Least Mean Square (LMS) algorithm is comprised of two processes - a filtering process producing the output signal and the estimation error, and an adaptive process responsible for the automatic adjustment of filter tap weights.
+
+
+![image](https://user-images.githubusercontent.com/90281515/146788807-233ebc1a-6321-42e7-8155-ae065254b182.png)
+
+
+
+### “THE PROTOTYPE OF THE ALGORITHM WAS SIMULATED ON MATLAB. THE TEST SIGNAL WAS AN ELEMENTARY COSINE FUNCTION, THE FINAL  ADAPTIVE OUTPUT IS VERY SIMILAR TO THE INPUT SIGNAL, THUS VERIFYING THE ACCURACY OF THE FILTER.”
+
+
+
 ![image](https://user-images.githubusercontent.com/90281515/146786708-226ac46c-b0a2-4038-9d20-6558d93d8191.png)
 
 
+
+
 ![image](https://user-images.githubusercontent.com/90281515/146786727-fe0cf03a-7917-4528-ba17-ce4b62b1f9f0.png)
+
+
+
